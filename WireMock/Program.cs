@@ -22,7 +22,7 @@ namespace WireMock
                 StartAdminInterface = true,
                 ProxyAndRecordSettings = new ProxyAndRecordSettings
                 {
-                    Url = "http://localhost:0000/",
+                    Url = "http://127.0.0.1:8000/",
                     SaveMapping = true,
                     SaveMappingToFile = true
                 }
