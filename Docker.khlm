@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+ 
 set -euo pipefail
 
 # GEN_DIR allows to share the entrypoint between Dockerfile and run-in-docker.sh (backward compatible)
