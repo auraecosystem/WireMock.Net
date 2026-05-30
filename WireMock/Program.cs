@@ -18,11 +18,11 @@ namespace WireMock
         {
             var server = FluentMockServer.Start(new FluentMockServerSettings
             {
-                Urls = new[] { "http://localhost:9095/" },
+                Urls = new[] { "http://localhost:9494/" },
                 StartAdminInterface = true,
                 ProxyAndRecordSettings = new ProxyAndRecordSettings
                 {
-                    Url = "http://localhost:56749/",
+                    Url = "http://localhost:0000/",
                     SaveMapping = true,
                     SaveMappingToFile = true
                 }
